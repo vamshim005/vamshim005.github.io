@@ -1,16 +1,22 @@
-###########################################################
-### Welcome to Beautiful Jekyll!
-### This config file is meant for settings that affect your entire website. When you first
-### set up your website you should go through all these settings and edit them, but after
-### the initial set up you won't need to come back to this file often.
-###########################################################
+# --- General options --- #
 
-############################
-# --- Required options --- #
-############################
+# url is the full website URL
+# baseurl is the website's URL without the hostname
+
+# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
+# url: 'http://vamshim005.github.io'
+# baseurl: ''
+
+# If you are building a GitHub project page then use these settings:
+#url: "http://username.github.io/projectname"
+#baseurl: "/projectname"
+
+# Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My Amazing website
+
+# Name of website
+title: Maya Vamshi
 
 # Your name to show in the footer
 author: Some Person
@@ -19,20 +25,25 @@ author: Some Person
 # --- List of links in the navigation bar --- #
 ###############################################
 
+# Short description of your site
+description: A virtual proof that name is awesome!
+
+# --- Navigation bar options --- #
+
+# List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
-
-################
-# --- Logo --- #
-################
-
+  Projects: 'projects'
+  Publications: 'publications'
+  My Resume: 'Resume.pdf'
+  About Me: 'aboutme'
+  # Dropdown menu in Navbar
+  # Resources:
+  #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+  #   - Learn markdown: "http://www.markdowntutorial.com/"
+  #   - GitHub Pages: "https://pages.github.com/"
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/vams005.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
