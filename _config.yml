@@ -24,8 +24,8 @@ description: A virtual proof that name is awesome!
 # List of links in the navigation bar
 navbar-links:
   Projects: 'projects'
-  Publications: 'publications'
-  My Resume: 'Resume.pdf'
+  # Publications: 'publications'
+  # My Resume: 'Resume.pdf'
   About Me: 'aboutme'
   # Dropdown menu in Navbar
   # Resources:
