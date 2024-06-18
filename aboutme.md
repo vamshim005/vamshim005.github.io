@@ -11,7 +11,7 @@ subtitle: What do I do
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
-I am pursuing my Master's degree in <strong>Information Technology Managment (CSE) </strong>from <i>University of Texas at Dellas</i> in Texas, USA.
+I am pursuing my Master's degree in <strong>Information Technology Managment (ITM) </strong>from <i>University of Texas at Dellas</i> in Texas, USA.
 </p>
 
 <p class="about-text">
