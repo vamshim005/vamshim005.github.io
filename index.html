@@ -9,11 +9,13 @@ cover-img: '/assets/img/cover.png'
 <!-- Load latest jQuery from CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Load latest Typed.js from CDN -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+<script src="/assets/js/typed.js" type="text/javascript"></script>
 <script>
   $(function () {
-    $('.typed').typed({
-      strings: [
+    if (typeof Typed !== 'undefined') {
+      console.log("Typed.js is loaded");
+      var typed = new Typed('.typed', {
+        strings: [
         'Technology.',
         'Programming.',
         'Open Source.',
