@@ -12,20 +12,22 @@ cover-img: '/assets/img/cover.png'
 <script src="/assets/js/typed.js" type="text/javascript"></script>
 <script>
   $(function () {
-    if (typeof Typed !== 'undefined') {
+     if (typeof Typed !== 'undefined') {
       console.log("Typed.js is loaded");
       var typed = new Typed('.typed', {
         strings: [
-        'Technology.',
-        'Programming.',
-        'Open Source.',
-        'Science.',
-        'Travel.',
-      ],
-      typeSpeed: 100,
-      loop: true,
-      backDelay: 1000,
-    });
+          'Competitive Programming.',
+          'Frontend Development.',
+          'Backend Development.',
+          'Fullstack Development.',
+        ],
+        typeSpeed: 100,
+        loop: true,
+        backDelay: 1000,
+      });
+    } else {
+      console.error("Typed.js is not loaded");
+    }
   });
 </script>
 
