@@ -69,7 +69,7 @@ subtitle: My Achievements
     </div>
     <p style="font-size: 1.1em;">Current Rating: <strong>1591</strong></p>
     <p style="font-size: 1.1em;">Max Rating: <strong>1662</strong></p>
-    <p style="font-size: 1.1em;">Problems Solved: <strong>608</strong></p>
+    <p style="font-size: 1.1em;">Problems Solved: <strong>600+</strong></p>
     <a class="profile-link" href="https://leetcode.com/u/VamshiMaya/" target="_blank">LeetCode Profile</a>
   </div>
   <div class="achievement-box" onclick="window.open('https://codeforces.com/profile/vamshimaya', '_blank')">
@@ -77,8 +77,8 @@ subtitle: My Achievements
       <img src="/img/codeforces.png" alt="Codeforces" class="achievement-icon" />
       <h2 style="margin: 0;">Codeforces</h2>
     </div>
-    <p style="font-size: 1.1em;">Current Rating: <strong>1082</strong> (Newbie)</p>
-    <p style="font-size: 1.1em;">Problems Solved: <strong>51</strong></p>
+    <p style="font-size: 1.1em;">Current Rating: <strong>1082</strong> (newbie)</p>
+    <p style="font-size: 1.1em;">Problems Solved: <strong>50+</strong></p>
     <a class="profile-link" href="https://codeforces.com/profile/vamshimaya" target="_blank">Codeforces Profile</a>
   </div>
   <div class="achievement-box" onclick="window.open('https://www.credly.com/badges/9679b3fa-e67b-4fea-808c-eb736bd4cf86/public_url', '_blank')">
