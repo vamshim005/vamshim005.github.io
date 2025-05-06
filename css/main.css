@@ -362,8 +362,8 @@ footer .theme-by {
 }
 .post-image {
   float: right;
-  width: 192px;
-  height: 192px;
+  width: 192px !important;
+  height: 192px !important;
   margin-top: -35px;
   display: flex;
   align-items: center;
@@ -378,8 +378,13 @@ footer .theme-by {
   border-radius: 50% !important;
   aspect-ratio: 1 / 1 !important;
   object-fit: cover !important;
+  min-width: 192px !important;
+  min-height: 192px !important;
+  max-width: 192px !important;
+  max-height: 192px !important;
   width: 192px !important;
   height: 192px !important;
+  display: block;
 }
 .post-preview .post-read-more {
   font-weight: 800;
@@ -425,12 +430,14 @@ footer .theme-by {
 
 @media only screen and (max-width: 500px) {
   .post-image, .post-image img {
+    min-width: 120px !important;
+    min-height: 120px !important;
+    max-width: 120px !important;
+    max-height: 120px !important;
     width: 120px !important;
     height: 120px !important;
   }
   .post-image {
-    width: 120px !important;
-    height: 120px !important;
     display: flex;
     align-items: center;
     justify-content: center;
