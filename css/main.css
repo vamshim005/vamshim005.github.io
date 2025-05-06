@@ -373,9 +373,11 @@ footer .theme-by {
 } */
 
 .post-image img {
-  border-radius: 100px;
-  height: 192px;
-  width: 192px;
+  border-radius: 50% !important;
+  aspect-ratio: 1 / 1 !important;
+  object-fit: cover !important;
+  width: 120px !important;
+  height: 120px !important;
 }
 .post-preview .post-read-more {
   font-weight: 800;
@@ -421,8 +423,8 @@ footer .theme-by {
 
 @media only screen and (max-width: 500px) {
   .post-image, .post-image img {
-    height: 100px;
-    width: 100px;
+    width: 120px !important;
+    height: 120px !important;
   }
 
   .post-image {
