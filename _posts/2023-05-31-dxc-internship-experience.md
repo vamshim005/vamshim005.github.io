@@ -2,7 +2,7 @@
 layout: post
 title: My Internship Experience at DXC Technologies
 subtitle: A seven-month software engineering internship at Hyderabad, India
-image: /img/daad_wise_internship_experience/logo.jpg
+image: /img/dxc_internship_experience/logo.jpg
 # You can update the image path if you want a different image
 # tags: [software, internship, engineering, spring, android, tableau, DXC]
 tags: [software, internship, engineering, spring, android, tableau, DXC]
@@ -11,7 +11,7 @@ date: 2023-05-31
 
 I was thrilled to receive the offer to join DXC Technologies as a Software Engineering Intern during my final year of studies. With a passion for building real-world applications and improving system performance, this internship gave me an incredible opportunity to contribute to enterprise-scale projects from day one.
 
-![DXC Internship 1](/img/daad_wise_internship_experience/content_1.jpg)
+![DXC Internship 1](/img/dxc_internship_experience/content_1.jpg)
 
 My primary responsibility was to develop a mobile application called Melange — an Android-based platform designed to manage offsite events. Built using Java and Firebase, the app handled everything from event schedules and hotel room allocations to real-time notifications and reminders. It felt rewarding to see my code come to life in a tool used internally by teams across DXC.
 
@@ -23,7 +23,7 @@ One of the most satisfying aspects of the internship was automating reporting da
 
 My experience with Spring Data JPA and JDBC taught me the importance of structured data access and clean integration with relational databases. These technologies not only improved performance but also introduced me to clean coding practices and reusable patterns.
 
-![DXC Internship 2](/img/daad_wise_internship_experience/content_2.jpg)
+![DXC Internship 2](/img/dxc_internship_experience/content_2.jpg)
 
 The culture at DXC was collaborative and growth-oriented. I had weekly sync-ups with mentors, learned to work with Agile sprints, and regularly participated in code reviews. This constant feedback loop helped me become a better engineer, both technically and professionally.
 
