@@ -90,24 +90,4 @@ subtitle: My Achievements
     <p style="font-size: 1.1em;">EC2, ECS, EKS, ECR, S3, RDS, SQS, VPC, Subnets, Security Groups</p>
     <a class="profile-link" href="https://www.credly.com/badges/9679b3fa-e67b-4fea-808c-eb736bd4cf86/public_url" target="_blank">View on Credly</a>
   </div>
-</div>
-
----
-
-## Topic-Based Image Caption Generation
-
-- **Conference:** Arabian Journal for Science and Engineering (AJSE)
-- **Publication Date:** 15th November 2019
-- **Authors**: Sandeep Kumar Dash, Shantanu Acharya, Partha Pakray, Ranjita Das and Alexander Gelbukh
-- **Link:** https://link.springer.com/article/10.1007/s13369-019-04262-2
-
-<br/>
-
-## Every Child Should Have Parents: A Taxonomy Refinement Algorithm Based on Hyperbolic Term Embeddings
-
-- **Conference:** Association for Computational Linguistics (ACL)
-- **Publication Date:** 5th June 2019
-- **Authors**: Rami Aly, _Shantanu Acharya_, Alexander Ossa, Arne Köhn, Chris Biemann and Alexander Panchenko
-- **Link:** https://arxiv.org/abs/1906.02002
-
----
+</div> 
