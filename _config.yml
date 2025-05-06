@@ -14,7 +14,7 @@ baseurl: ''
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Vamshi Maya
+title: Hi! I'm Vamshi Maya
 
 # Short description of your site
 description: A virtual proof that name is awesome!
@@ -76,7 +76,7 @@ author:
 social-network-links:
   rss: true
   email: 'vamshi.maya005@gmail.com'
-  facebook: greatsaiyen007
+  facebook: vamshi.maya.2025
   github: vamshim005
   #  twitter: daattali
   #  reddit: yourname
@@ -85,7 +85,7 @@ social-network-links:
   #  xing: yourname
   #  stackoverflow: "3943160/daattali"
   #  snapchat: deanat78
-  instagram: shan_1.0
+  instagram: vamshim005
 #  youtube: user/deanat78
 #  spotify: yourname
 #  telephone: +14159998888
