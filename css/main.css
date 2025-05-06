@@ -774,3 +774,19 @@ td.gutter {
   font-style: italic;
   font-size: 16px;
 }
+
+/* Make navbar avatar a perfect circle */
+.avatar-container img, .avatar {
+  border-radius: 50% !important;
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: cover !important;
+}
+
+/* Make post logo images circular */
+.post-image img, .post-logo, .header-section img {
+  border-radius: 50% !important;
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: cover !important;
+}
