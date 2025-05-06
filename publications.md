@@ -45,24 +45,47 @@ subtitle: My Achievements
   background: #005fa3;
   transform: scale(1.08);
 }
+.achievement-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 6px;
+}
+.achievement-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
 </style>
 
 <div class="achievements-flex">
   <div class="achievement-box" onclick="window.open('https://leetcode.com/u/VamshiMaya/', '_blank')">
-    <h2 style="margin-bottom: 12px;">LeetCode</h2>
+    <div class="achievement-title">
+      <img src="/img/leetcode.png" alt="LeetCode" class="achievement-icon" />
+      <h2 style="margin: 0;">LeetCode</h2>
+    </div>
     <p style="font-size: 1.1em;">Current Rating: <strong>1591</strong></p>
     <p style="font-size: 1.1em;">Max Rating: <strong>1662</strong></p>
     <p style="font-size: 1.1em;">Problems Solved: <strong>608</strong></p>
     <a class="profile-link" href="https://leetcode.com/u/VamshiMaya/" target="_blank">LeetCode Profile</a>
   </div>
   <div class="achievement-box" onclick="window.open('https://codeforces.com/profile/vamshimaya', '_blank')">
-    <h2 style="margin-bottom: 12px;">Codeforces</h2>
+    <div class="achievement-title">
+      <img src="/img/codeforces.png" alt="Codeforces" class="achievement-icon" />
+      <h2 style="margin: 0;">Codeforces</h2>
+    </div>
     <p style="font-size: 1.1em;">Current Rating: <strong>1082</strong> (Newbie)</p>
     <p style="font-size: 1.1em;">Problems Solved: <strong>51</strong></p>
     <a class="profile-link" href="https://codeforces.com/profile/vamshimaya" target="_blank">Codeforces Profile</a>
   </div>
   <div class="achievement-box" onclick="window.open('https://www.credly.com/badges/9679b3fa-e67b-4fea-808c-eb736bd4cf86/public_url', '_blank')">
-    <h2 style="margin-bottom: 12px;">AWS Certification</h2>
+    <div class="achievement-title">
+      <img src="/img/credly.png" alt="Credly" class="achievement-icon" />
+      <h2 style="margin: 0;">AWS Certification</h2>
+    </div>
     <p style="font-size: 1.1em;">AWS Cloud Practitioner</p>
     <p style="font-size: 1.1em;">EC2, ECS, EKS, ECR, S3, RDS, SQS, VPC, Subnets, Security Groups</p>
     <a class="profile-link" href="https://www.credly.com/badges/9679b3fa-e67b-4fea-808c-eb736bd4cf86/public_url" target="_blank">View on Credly</a>
