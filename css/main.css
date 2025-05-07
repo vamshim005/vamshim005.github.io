@@ -28,13 +28,6 @@ a:hover {
   text-decoration: underline;
 }
 
-nav, .navbar-custom {
-  background: #fff;
-  border-bottom: 1px solid #eaeaea;
-  padding: 0.3em 0;
-  text-align: center;
-}
-
 .navbar-custom .avatar-container img, .avatar {
   border-radius: 50%;
   width: 120px;
