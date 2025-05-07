@@ -5,13 +5,14 @@ subtitle: Workshop at University of Texas at Dallas
 image: /img/utd_ai_workshop/logo.jpg
 tags: [AI, neural-networks, machine-learning, workshops]
 date: 2023-11-15
+excerpt: >
+  It was during my time at UTD when I came across a flyer promoting a hands-on workshop on Artificial Intelligence and Neural Networks. Hosted by the Department of Computer Science and led by passionate researchers and engineers, this workshop promised to offer more than just theory—it aimed to give participants a glimpse into how machines learn, think, and improve.
+
+  [Read More]
+  Tags: AI neural-networks machine-learning workshops
 ---
 
 ![Workshop Logo](/img/utd_ai_workshop/logo.jpg)
-
-It was during my time at UTD when I came across a flyer promoting a hands-on workshop on Artificial Intelligence and Neural Networks. Hosted by the Department of Computer Science and led by passionate researchers and engineers, this workshop promised to offer more than just theory—it aimed to give participants a glimpse into how machines learn, think, and improve.
-
-![Workshop Session](/img/utd_ai_workshop/content_1.png)
 
 On the first day, we started with a gentle introduction to the fundamentals of AI—how machines can be trained to make decisions, spot patterns, and even mimic aspects of human cognition. We learned about the history of AI, its current applications in areas like healthcare and autonomous driving, and where the field is heading next.
 
