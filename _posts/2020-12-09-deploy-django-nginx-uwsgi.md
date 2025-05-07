@@ -341,7 +341,7 @@ $ sudo service nginx status
 
 <br/>
 
-Now you can access your app via a browser at **http://\<your-public-ip-address\>**
+Now you can access your app via a browser at **http://<your-public-ip-address>**
 
 <br/>
 

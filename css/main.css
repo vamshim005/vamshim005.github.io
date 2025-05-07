@@ -251,47 +251,42 @@ footer .theme-by {
 
 @media (max-width: 700px) {
   .main-content {
-    padding: 0 0.5em;
+    padding-top: 60px;
   }
   .post-image, .post-image img {
-    width: 120px;
-    height: 120px;
+    width: 128px;
+    height: 128px;
   }
   .post-image {
     float: none;
     margin: 0 auto 1em auto;
-    display: flex;
-    justify-content: center;
   }
 }
 
-/* Tag styles */
 .blog-tags {
   margin-top: 1em;
-  font-size: 0.95em;
 }
+
 .blog-tags a {
-  color: #2980b9;
+  display: inline-block;
   margin-right: 0.5em;
+  color: #666;
 }
 
 .blog-tags a:hover {
   color: #c0392b;
-  background-color: #EEE;
+  text-decoration: none;
 }
 
 hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
-  border-color: #eaeaea;
+  border-color: inherit;
   border-radius: 3px;
 }
 
 blockquote {
   color: #808080;
   font-style: italic;
-  margin: 1em 0;
-  padding-left: 1em;
-  border-left: 4px solid #eaeaea;
 }
