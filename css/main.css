@@ -123,80 +123,104 @@ blockquote {
   border-left: 4px solid #eaeaea;
 }
 
-/* Remove or comment out custom flexbox navbar styles that conflict with Bootstrap */
-/*
+/* --- Navbar --- */
+
 .navbar-custom {
-  background: #fff;
-  border-bottom: 1px solid #eaeaea;
-  min-height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 2em;
+  background-color: #fff;
+  border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.navbar-brand {
+.navbar-custom .nav li a {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav li a {
   font-weight: 800;
-  font-size: 1.2em;
   color: #404040;
-  text-decoration: none;
-  padding: 0.5em 0;
 }
 
-.navbar-custom ul {
-  list-style: none;
-  display: flex;
-  gap: 2em;
-  margin: 0;
-  padding: 0;
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus ,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #c0392b;
 }
 
-.navbar-custom ul li {
-  display: inline;
+.navbar-custom .navbar-brand-logo {
+  padding-top: 0;
+  transition: padding .5s ease-in-out;
+}
+.navbar-custom .navbar-brand-logo img {
+  height: 50px;
+  transition: height .5s ease-in-out;
+}
+.navbar-custom.top-nav-short .navbar-brand-logo {
+  padding-top: 5px;
+}
+.navbar-custom.top-nav-short .navbar-brand-logo img {
+  height: 40px;
 }
 
-.navbar-custom ul li a {
-  color: #404040;
-  font-size: 1em;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 0.5em 0.7em;
-  border-radius: 3px;
-  transition: background 0.2s;
+@media only screen and (min-width: 768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+  .navbar-custom.top-nav-short {
+    padding: 0;
+  }
 }
 
-.navbar-custom ul li a:hover {
-  background: #f5f5f5;
-  color: #890000;
-}
-*/
-
-/* Avatar container: center and overlap navbar by half */
-.avatar-container {
+.navbar-custom .avatar-container {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
-  top: -60px; /* negative half of avatar height */
-  z-index: 10;
-  width: 120px;
-  height: 120px;
+  width: 50px;
+  margin-top: -25px;
+}
+.navbar-custom .avatar-container  .avatar-img-border {
+  width: 100%;
+  border-radius: 50%;
+  margin-left: -50%;
+  display: inline-block;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+.navbar-custom .avatar-container  .avatar-img {
+  width: 100%;
+  border-radius: 50%;
+  display: block;
 }
 
-/* Avatar image border */
-.avatar-img-border {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+.navbar-custom.top-nav-expanded .avatar-container  {
+  display: none;
 }
 
-.avatar-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
+@media only screen and (min-width: 768px) {
+  .navbar-custom .avatar-container {
+    width: 100px;
+    margin-top: -50px;
+  }
+  .navbar-custom .avatar-container  .avatar-img-border {
+    width: 100%;
+  }
+}
+
+/* --- Main Content Spacing --- */
+.main-content {
+  padding-top: 80px;
+}
+@media only screen and (min-width: 768px) {
+  .main-content {
+    padding-top: 130px;
+  }
+}
+
+/* --- Intro Header --- */
+.intro-header {
+  margin-top: 0;
 }
 
 /* Remove custom navbar font and padding overrides */
