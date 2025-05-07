@@ -12,11 +12,9 @@ excerpt: >
   Tags: AI neural-networks machine-learning workshops
 ---
 
-![Workshop Logo](/img/utd_ai_workshop/logo.jpg)
+![Workshop Session 1](/img/utd_ai_workshop/content_1.png)
 
 It was during my time at UTD when I came across a flyer promoting a hands-on workshop on Artificial Intelligence and Neural Networks. Hosted by the Department of Computer Science and led by passionate researchers and engineers, this workshop promised to offer more than just theory—it aimed to give participants a glimpse into how machines learn, think, and improve.
-
-![Workshop Session 1](/img/utd_ai_workshop/content_1.png)
 
 ![Workshop Session 2](/img/utd_ai_workshop/content_2.png)
 
