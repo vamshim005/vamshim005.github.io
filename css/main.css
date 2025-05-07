@@ -171,3 +171,53 @@ blockquote {
   color: #890000;
 }
 */
+
+/* Avatar container: center and overlap navbar by half */
+.avatar-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -60px; /* negative half of avatar height */
+  z-index: 10;
+  width: 120px;
+  height: 120px;
+}
+
+/* Avatar image border */
+.avatar-img-border {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.avatar-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Remove custom navbar font and padding overrides */
+.navbar-brand, .navbar-nav > li > a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: inherit;
+}
+
+/* Top margin for content below navbar+avatar */
+.intro-header {
+  margin-top: 120px;
+}
+@media (max-width: 700px) {
+  .intro-header {
+    margin-top: 80px;
+  }
+  .avatar-container, .avatar-img-border, .avatar-img {
+    width: 80px;
+    height: 80px;
+    top: -40px;
+  }
+}
