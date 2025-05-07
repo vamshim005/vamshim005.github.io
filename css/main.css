@@ -133,22 +133,20 @@ blockquote {
 .navbar-custom {
   background: #fff;
   border-bottom: 1px solid #eaeaea;
-  padding: 0.3em 0;
   min-height: 48px;
-  text-align: center;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 0 2em;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.navbar-custom .navbar-brand {
+.navbar-brand {
   font-weight: 800;
   font-size: 1.2em;
-  margin-right: auto;
-  margin-left: 1em;
   color: #404040;
   text-decoration: none;
+  padding: 0.5em 0;
 }
 
 .navbar-custom ul {
@@ -156,7 +154,7 @@ blockquote {
   display: flex;
   gap: 2em;
   margin: 0;
-  padding: 0 1em 0 0;
+  padding: 0;
 }
 
 .navbar-custom ul li {
@@ -176,4 +174,4 @@ blockquote {
 .navbar-custom ul li a:hover {
   background: #f5f5f5;
   color: #890000;
-} 
+}
