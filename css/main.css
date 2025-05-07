@@ -1,1 +1,131 @@
- 
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-size: 18px;
+  color: #404040;
+  background: #fafafa;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #890000;
+  text-decoration: none;
+}
+a:hover {
+  color: #c0392b;
+  text-decoration: underline;
+}
+
+nav, .navbar-custom {
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.navbar-custom .avatar-container img, .avatar {
+  border-radius: 50%;
+  width: 120px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+.post-preview {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  margin-bottom: 2em;
+  padding: 2em;
+  border: 1px solid #eee;
+}
+
+.post-image {
+  float: right;
+  width: 192px;
+  height: 192px;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-image img {
+  border-radius: 50%;
+  width: 192px;
+  height: 192px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  box-shadow: 0 0 8px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 700px) {
+  .main-content {
+    padding: 0 0.5em;
+  }
+  .post-image, .post-image img {
+    width: 120px;
+    height: 120px;
+  }
+  .post-image {
+    float: none;
+    margin: 0 auto 1em auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  padding: 2em 0 1em 0;
+  font-size: 0.95em;
+  background: #fff;
+  border-top: 1px solid #eaeaea;
+  margin-top: 3em;
+}
+
+/* Tag styles */
+.blog-tags {
+  margin-top: 1em;
+  font-size: 0.95em;
+}
+.blog-tags a {
+  color: #2980b9;
+  margin-right: 0.5em;
+}
+
+/* Misc */
+hr.small {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: #eaeaea;
+  border-radius: 3px;
+}
+
+blockquote {
+  color: #808080;
+  font-style: italic;
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 4px solid #eaeaea;
+} 
