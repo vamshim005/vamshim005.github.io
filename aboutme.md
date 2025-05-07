@@ -46,4 +46,4 @@ What else do you need?
 
 ### My hobbies
 
-To be honest, I just have two hobbies: programming and photography. It's diffcult to describe the second hobby, so why don't you just [see for yourself](https://www.instagram.com/shan_1.0/?hl=en).
+To be honest, I just have one hobby: solving coding challenges on LeetCode. It's difficult to describe, so why don't you just [see for yourself](https://leetcode.com/u/VamshiMaya/).
