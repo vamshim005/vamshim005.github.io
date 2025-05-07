@@ -24,7 +24,7 @@ description: Software Engineer | AI/ML Enthusiast
 # List of links in the navigation bar
 navbar-links:
   Projects: 'projects'
-  Publications: 'publications'
+  My Explorations: 'myexplorations'
   My Resume: 'Resume.pdf'
   About Me: 'aboutme'
   # Dropdown menu in Navbar
