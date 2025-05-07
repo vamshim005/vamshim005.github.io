@@ -16,7 +16,7 @@ excerpt: >
 
 It was during my time at UTD when I came across a flyer promoting a hands-on workshop on Artificial Intelligence and Neural Networks. Hosted by the Department of Computer Science and led by passionate researchers and engineers, this workshop promised to offer more than just theory—it aimed to give participants a glimpse into how machines learn, think, and improve.
 
-![Workshop Session 2](/img/utd_ai_workshop/content_2.png)
+![Workshop Session 2](/img/utd_ai_workshop/content_2.jpeg)
 
 On the first day, we started with a gentle introduction to the fundamentals of AI—how machines can be trained to make decisions, spot patterns, and even mimic aspects of human cognition. We learned about the history of AI, its current applications in areas like healthcare and autonomous driving, and where the field is heading next.
 
