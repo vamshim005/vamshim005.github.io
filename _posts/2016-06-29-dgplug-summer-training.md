@@ -1,31 +1,25 @@
 ---
-layout: post
-title: Introduction to Open Source
-subtitle: dgplug Summer Training
-image: /img/dgplug_summer_training/logo.jpg
-tags: [programming, software, open source]
+title: Understanding AI and Neural Networks
+subtitle: Workshop at University of Texas at Dallas
+date: 2023-11-01
 ---
 
-It was during Scipy 2015, a three-day conference on Scientific Python conducted at IIT Bombay from 14th December, 2015 to 16th December, 2015 when I first heard about the open source community. Some of the participants there were talking amongst themselves about their contributions to the open source community and I was like “What is this open source?!” Then I asked one of my friends about it and he gave me a link to this video which explains open source community in simple terms:
+It was during my time at UTD when I came across a flyer promoting a hands-on workshop on Artificial Intelligence and Neural Networks. Hosted by the Department of Computer Science and led by passionate researchers and engineers, this workshop promised to offer more than just theory—it aimed to give participants a glimpse into how machines learn, think, and improve.
 
-<div class="jetpack-video-wrapper">
-    <span class="embed-youtube" style="text-align:center; display: block;">
-        <iframe class='youtube-player' type='text/html' width='700' height='424' src='https://www.youtube.com/embed/Tyd0FO0tko8?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe>
-    </span>
-</div>
+![Workshop Flyer](../img/utd_ai_workshop/content_1.png)
 
-After watching this and doing my own research, I was really hooked up to open source and wanted to contribute to this community.
+On the first day, we started with a gentle introduction to the fundamentals of AI—how machines can be trained to make decisions, spot patterns, and even mimic aspects of human cognition. We learned about the history of AI, its current applications in areas like healthcare and autonomous driving, and where the field is heading next.
 
-But still, I had no knowledge of how to do that! Then I came to know about dgplug’s summer training which will guide me to the world of open source software development. This organization conducted their sessions on IRC and posted the logs on their website so that in case anyone misses the session due to some reason, they can read the logs and catch up. I was eagerly waiting for this training to begin as I couldn’t wait to start contributing to open source.
+The second part of the workshop focused on neural networks, and this was where things got exciting. We explored the structure of perceptrons and multi-layered networks, learned about activation functions, backpropagation, and the importance of gradient descent. The instructors used simple visuals and real-world analogies to make the concepts accessible—even for those new to the topic.
 
-## The Training Begins
+One of the most enjoyable moments was when we got to build our own neural network using Python and TensorFlow. Starting with a basic image classifier, we experimented with datasets like MNIST and Fashion MNIST. The process of watching our model improve with each epoch was incredibly satisfying, and it gave me a deeper appreciation for the power of training data and model tuning.
 
-It started from 19th July, 2016. It was a three-month training and the sessions were conducted 5 days a week at 6:30 p.m. Sessions were conducted in a sophisticated and systematic manner by the mentors Kushal Das and Sayan Chowdhury.
+![Hands-on Session](../img/utd_ai_workshop/content_2.jpeg)
 
-One fascinating thing about this session was that they were using a bot named “batul” whose task was to start and end the session and to maintain the queue of the people who want to ask questions. We all were amazed by this bot and wanted to view its source code. Our mentors shared the bot’s source code with us.
+We were also introduced to ethical concerns in AI, including bias in data, the opacity of black-box models, and the importance of explainability. These sessions sparked meaningful discussions and emphasized the responsibility that comes with working in the AI field.
 
-On the first day, we were taught basic communication guidelines on IRC and mailing lists. Whenever we had any questions, we were supposed to type ‘!’ and when told, then to ask the questions.
+The workshop wrapped up with a group project challenge. My team built a sentiment classifier that could distinguish between positive and negative movie reviews. Though it was a simple task, collaborating with others under time pressure helped me grasp the nuances of model validation, overfitting, and data preprocessing.
 
-The topic of the sessions then pivoted towards python programming. All the lessons taught were right from the basics, we were given some challenging programming questions at the end of each session which used to cover all the topics that were taught till date. Then sometimes some sessions on open sources technologies like git, ansible, shell scripting etc. were held. We also used to have some guest lecture sessions where various people who are now pioneers in the open source community came and shared their stories of how then began their journey into the world of open source software. The best part about it was when Kushal invited _Guido Van Rossum_, the creator of _python programming language_ as a speaker in one of the guest sessions. Everyone was totally psyched. The class had the maximum attendance that day.
+Overall, this workshop was more than just an academic session—it was a spark. It strengthened my desire to explore AI in depth and helped me understand the importance of combining mathematical rigor with creativity. I left feeling inspired, more knowledgeable, and eager to continue building intelligent systems.
 
-This training met more than my expectations. Earlier, I was skeptical that how can a session be conducted on IRC but Kushal and Sayan conducted the session in a wonderful way which creates no confusion and it’s easy to understand for everyone. I learned a lot from this training and it was a wonderful experience for me. I would recommend almost everyone who wants to begin his journey into the open source community to definitely sign up for this training.
+Tags: AI, neural-networks, machine-learning, workshops
