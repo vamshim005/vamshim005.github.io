@@ -21,6 +21,8 @@ An online stock market simulator enabling users to have an experience of trading
 
 ## ProCoder
 
+<a href="/projects/2024/05/09/procoder-journey.html"><strong>ProCoder</strong></a>
+
 <a href="https://vamshim005.pythonanywhere.com/" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
 <a href="https://github.com/vamshim005/ProCoder" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
 
