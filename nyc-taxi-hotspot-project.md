@@ -1,8 +1,8 @@
 ---
 layout: default
-title: NYC Taxi Hotspot Analysis
+title: NYC Taxi Hotspot Project
 date: 2025-05-09
-permalink: /nyc-taxi-hotspot-heatmap/
+permalink: /nyc-taxi-hotspot-project/
 ---
 
 # NYC Taxi Hotspot Analysis
@@ -44,9 +44,7 @@ flowchart LR
 
 ## Results & Visuals
 
-[![Interactive taxi demand heat‑map](/img/nyc-taxi-hotspot-heatmap.png)](/img/nyc-taxi-hotspot-heatmap/heatmap.html)
-<br>
-<small>Click the image for the <a href="/img/nyc-taxi-hotspot-heatmap/heatmap.html">interactive version</a>.</small>
+<iframe src="/img/nyc-taxi-hotspot-heatmap/heatmap.html" width="100%" height="700" style="border:none;"></iframe>
 
 **Query top-N hotspots:**
 ```sql
