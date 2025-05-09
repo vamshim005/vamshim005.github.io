@@ -9,7 +9,7 @@
 - [Creating a User Page vs a Project Page](#creating-a-user-page-vs-a-project-page)
 - [Advanced: local development](#advanced-local-development-using-docker)
 
-## Build your website in 3 steps
+## Build your website in 3 steps:
 
 Getting started is *literally* as easy as 1-2-3 :smile:
 Scroll down to see the steps involved, but here is a 40-second video just as a reference as you work through the steps.
