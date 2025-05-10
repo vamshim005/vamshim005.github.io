@@ -32,7 +32,6 @@ A modern, full-featured online coding judge platform designed for programmers to
 
 ## NYC Taxi Hotspot Analysis
 
-<a href="https://vamshimaya.com/nyc-taxi-hotspot-project/" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
 <a href="https://github.com/vamshim005/nyc-taxi-hotspot" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
 <a href="https://vamshimaya.com/nyc-taxi-hotspot-project/" target="_blank"><img src="https://img.shields.io/badge/Blog-4CAF50" alt="Blog"></a>
 
