@@ -66,4 +66,17 @@ Ranking the reviews on Amazon according to their helpfulness score.
 
 **Tools Used**: Python, Numpy, Pandas, textblob, scikit-learn
 
+## NYC Taxi Hotspot Analysis
+
+<a href="https://vamshimaya.com/nyc-taxi-hotspot-project/" target="_blank"><img src="https://img.shields.io/badge/Read%20Blog-blue"></a>
+<a href="https://github.com/vamshim005/nyc-taxi-hotspot" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+
+A large-scale data engineering and analytics project to identify top taxi pick-up hotspots in NYC using Dockerized PySpark on AWS. Interactive heatmaps and a FastAPI results API help dispatchers and drivers optimize routes, with an estimated 18% efficiency gain (simulation on 2015 data).
+
+- **Data:** 120M NYC Yellow Taxi trips (2015), 17GB Parquet
+- **Goal:** Identify high-demand zones, surface as GeoJSON/Plotly maps
+- **Stack:** Python, PySpark, Docker, AWS EMR, Plotly, FastAPI, GitHub Actions
+- **Results:** 4 min end-to-end refresh on $1 EMR cluster, 18% simulated efficiency gain
+- **Features:** One-command reproducibility, CI/CD, interactive visualizations
+
 ---
