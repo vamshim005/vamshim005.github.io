@@ -1,5 +1,7 @@
 # vamshim005.github.io
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 This is the source code for [vamshim005.github.io](https://vamshim005.github.io), the personal portfolio website of Vamshi Maya. The site showcases my projects, skills, experience, and blog posts.
 
 ## 🌐 Live Site
@@ -42,7 +44,7 @@ This is the source code for [vamshim005.github.io](https://vamshim005.github.io)
 Pull requests are welcome for improvements, bug fixes, or new blog posts. For major changes, please open an issue first to discuss what you would like to change.
 
 ## 📄 License
-This portfolio is open source under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
