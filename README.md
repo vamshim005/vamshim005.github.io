@@ -48,4 +48,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ by Vamshi Maya
+Vamshi Maya
+
+Note: The 'projects' directory will be created to host the Image Recognition Demo static page.

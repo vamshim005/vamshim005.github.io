@@ -6,6 +6,8 @@ subtitle: What's been eating away my free time
 
 This is a collection of my personal projects that I work on in my free time. Hope you like them.
 
+_Note: The 'projects' directory will be created to host the Image Recognition Demo static page._
+
 ---
 
 ## ProCoder

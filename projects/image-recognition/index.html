@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Recognition Demo</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 2rem auto; }
+    #result { white-space: pre; background:#f5f5f5; padding:1rem; }
+  </style>
+</head>
+<body>
+  <h1>Image Recognition as a Service</h1>
+  <form id="form">
+    <input type="file" name="file" accept="image/*" required />
+    <button>Upload</button>
+  </form>
+  <h3>Labels</h3>
+  <pre id="result">(none yet)</pre>
+  <script>
+    const form = document.getElementById('form');
+    const resultBox = document.getElementById('result');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      resultBox.textContent = 'Uploading…';
+      const fd = new FormData(form);
+      const res = await fetch('https://<alb_dns>/upload', { method:'POST', body: fd });
+      if (!res.ok) { resultBox.textContent = 'Upload failed'; return;}
+      const data = await res.json();
+      resultBox.textContent = JSON.stringify(data, null, 2);
+    });
+  </script>
+</body>
+</html> 
