@@ -108,7 +108,7 @@
       uploadBtn.disabled = true;
       const fd = new FormData(form);
       try {
-        const res = await fetch('/projects/image-recognition/images', { method:'POST', body: fd });
+        const res = await fetch('/images', { method:'POST', body: fd });
         if (!res.ok) throw new Error('Upload failed');
         const data = await res.json();
         status.textContent = 'Success!';
