@@ -3,30 +3,129 @@
 <head>
   <meta charset="UTF-8" />
   <title>Image Recognition Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: sans-serif; max-width: 600px; margin: 2rem auto; }
-    #result { white-space: pre; background:#f5f5f5; padding:1rem; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; margin: 0; }
+    .container {
+      max-width: 420px;
+      margin: 3rem auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+      padding: 2rem 2rem 1.5rem 2rem;
+    }
+    h1 { text-align: center; margin-bottom: 1.5rem; }
+    .upload-area {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .preview {
+      max-width: 100%;
+      max-height: 180px;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      display: none;
+    }
+    button {
+      background: #0078d7;
+      color: #fff;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:disabled { background: #b0b0b0; cursor: not-allowed; }
+    .labels-list {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .label-chip {
+      background: #e3f2fd;
+      color: #1976d2;
+      padding: 0.4em 0.9em;
+      border-radius: 16px;
+      font-size: 0.98em;
+      box-shadow: 0 1px 2px rgba(25,118,210,0.08);
+    }
+    .status {
+      text-align: center;
+      margin-top: 1rem;
+      color: #d32f2f;
+      font-weight: 500;
+    }
+    @media (max-width: 500px) {
+      .container { padding: 1rem; }
+    }
   </style>
 </head>
 <body>
-  <h1>Image Recognition as a Service</h1>
-  <form id="form">
-    <input type="file" name="file" accept="image/*" required />
-    <button>Upload</button>
-  </form>
-  <h3>Labels</h3>
-  <pre id="result">(none yet)</pre>
+  <div class="container">
+    <h1>Image Recognition</h1>
+    <form id="form" class="upload-area">
+      <input type="file" name="file" id="fileInput" accept="image/*" required />
+      <img id="preview" class="preview" alt="Image preview" />
+      <button id="uploadBtn">Upload</button>
+    </form>
+    <div id="status" class="status"></div>
+    <h3>Labels</h3>
+    <ul id="labels" class="labels-list"></ul>
+  </div>
   <script>
     const form = document.getElementById('form');
-    const resultBox = document.getElementById('result');
+    const fileInput = document.getElementById('fileInput');
+    const preview = document.getElementById('preview');
+    const status = document.getElementById('status');
+    const labelsList = document.getElementById('labels');
+    const uploadBtn = document.getElementById('uploadBtn');
+
+    fileInput.addEventListener('change', () => {
+      const file = fileInput.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = e => {
+          preview.src = e.target.result;
+          preview.style.display = 'block';
+        };
+        reader.readAsDataURL(file);
+      } else {
+        preview.style.display = 'none';
+      }
+    });
+
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      resultBox.textContent = 'Uploading…';
+      status.textContent = 'Uploading…';
+      labelsList.innerHTML = '';
+      uploadBtn.disabled = true;
       const fd = new FormData(form);
-      const res = await fetch('/projects/image-recognition/images', { method:'POST', body: fd });
-      if (!res.ok) { resultBox.textContent = 'Upload failed'; return;}
-      const data = await res.json();
-      resultBox.textContent = JSON.stringify(data, null, 2);
+      try {
+        const res = await fetch('/projects/image-recognition/images', { method:'POST', body: fd });
+        if (!res.ok) throw new Error('Upload failed');
+        const data = await res.json();
+        status.textContent = 'Success!';
+        if (data.labels && Array.isArray(data.labels)) {
+          data.labels.forEach(label => {
+            const li = document.createElement('li');
+            li.className = 'label-chip';
+            li.textContent = label;
+            labelsList.appendChild(li);
+          });
+        } else {
+          labelsList.innerHTML = '<li>No labels found.</li>';
+        }
+      } catch (err) {
+        status.textContent = err.message || 'Upload failed';
+      }
+      uploadBtn.disabled = false;
     });
   </script>
 </body>
