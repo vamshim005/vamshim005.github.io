@@ -23,7 +23,7 @@
       e.preventDefault();
       resultBox.textContent = 'Uploading…';
       const fd = new FormData(form);
-      const res = await fetch('https://<alb_dns>/upload', { method:'POST', body: fd });
+      const res = await fetch('/projects/image-recognition/images', { method:'POST', body: fd });
       if (!res.ok) { resultBox.textContent = 'Upload failed'; return;}
       const data = await res.json();
       resultBox.textContent = JSON.stringify(data, null, 2);
